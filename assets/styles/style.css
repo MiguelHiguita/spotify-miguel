@@ -1,0 +1,28 @@
+.banner{
+    background-image: url(../img/vilma-palma-fondo.jpg);
+    padding: 25%;
+    background-position: top center;
+    position: relative; 
+    z-index: 1; 
+}
+
+.banner::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+.fondoboton{
+    background-color: rgba(0, 157, 219, 0.928);
+    /*no le pude cambiar el color cuando le pongo el mouse encima :c*/
+}
+
+.imf-fluid{
+    border-radius: 50%;
+    height: 90%;
+}
